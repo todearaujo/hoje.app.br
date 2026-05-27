@@ -1,8 +1,8 @@
 {
-  "commitMessage": "Backup via {{hostname} @ {{date}}\n\n{{files}}",
-  "autoCommitMessage": "Backup via {{hostname} @ {{date}}\n\n{{files}}",
+  "commitMessage": "Backup via {{hostname}} @ {{date}}\n\n{{files}}",
+  "autoCommitMessage": "Backup via {{hostname}} @ {{date}}\n\n{{files}}",
   "commitMessageScript": "",
-  "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
+  "commitDateFormat": "DD/MM/YYYY & HH:mm:ss",
   "autoSaveInterval": 120,
   "autoPushInterval": 0,
   "autoPullInterval": 60,
