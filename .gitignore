@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Obsidian - configurações locais
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# Imagens - gerenciar separado por enquanto
+img/
