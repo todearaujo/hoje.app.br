@@ -1,11 +1,11 @@
 {
-  "commitMessage": "vault backup: {{date}}",
-  "autoCommitMessage": "vault backup: {{date}}",
+  "commitMessage": "Backup via {{hostname} @ {{date}}\n\n{{files}}",
+  "autoCommitMessage": "Backup via {{hostname} @ {{date}}\n\n{{files}}",
   "commitMessageScript": "",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
-  "autoSaveInterval": 0,
+  "autoSaveInterval": 120,
   "autoPushInterval": 0,
-  "autoPullInterval": 0,
+  "autoPullInterval": 60,
   "autoPullOnBoot": false,
   "autoCommitOnlyStaged": false,
   "disablePush": false,
@@ -36,7 +36,7 @@
   "dateInHistoryView": true,
   "diffStyle": "split",
   "hunks": {
-    "showSigns": false,
+    "showSigns": true,
     "hunkCommands": false,
     "statusBar": "disabled"
   },
