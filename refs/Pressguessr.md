@@ -1,0 +1,1 @@
+Partindo do arquivo do Google de jornais indianos, um game onde você tenta adivinhar de que ano é aquela capa. https://peabee.substack.com/p/how-old-is-this-newspaper
