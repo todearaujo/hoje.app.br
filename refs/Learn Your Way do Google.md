@@ -1,1 +1,0 @@
-Interação com #inteligênciaartificial em uma experiência de aprendizado guiada construída inteira pelo Gemini. Veja em https://learnyourway.withgoogle.com/.
