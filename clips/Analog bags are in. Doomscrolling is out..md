@@ -1,13 +1,13 @@
 ---
-title: "Analog bags are in. Doomscrolling is out."
-source: "https://www.axios.com/2025/10/23/analog-bag-screen-free-wellness"
+title: '"Analog bags are in". Doomscrolling is out.'
+source: https://www.axios.com/2025/10/23/analog-bag-screen-free-wellness
 author:
   - "[[Sami Sparber]]"
 published: 2025-10-22
 created: 2026-06-07
-description: "It's part of a bigger return to offline hobbies."
+description: It's part of a bigger return to offline hobbies.
 tags:
-  - "clippings"
+  - clippings
 ---
 
 ## NL;NL
