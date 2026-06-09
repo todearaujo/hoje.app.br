@@ -1,10 +1,8 @@
 # macOS
 .DS_Store
 
-# Configurações do Obsidian
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-.obsidian/cache
+# Configurações do Obsidian (pasta inteira)
+.obsidian/
 
 # Pasta com rascunhos
 inbox/
