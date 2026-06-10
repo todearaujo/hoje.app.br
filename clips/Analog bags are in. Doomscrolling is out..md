@@ -9,7 +9,6 @@ description: It's part of a bigger return to offline hobbies.
 tags:
   - clippings
 ---
-
 ## NL;NL
 
 - **A nova tendência**: O "analog bag" (bolsa analógica) está ganhando popularidade entre a Geração Z e millennials como uma ferramenta de bem-estar para combater o vício em telas e o "doomscrolling".
@@ -19,7 +18,6 @@ tags:
 - Via [Axios](https://www.axios.com/2025/10/23/analog-bag-screen-free-wellness)
 
 ---
-
 # Analog bags are in. Doomscrolling is out.
 
 The latest must-have accessory is a " [stop-scrolling](https://www.axios.com/2025/09/26/phone-use-morning-finding-focus) bag" — a tote packed with analog activities like watercolors and crossword puzzles.
