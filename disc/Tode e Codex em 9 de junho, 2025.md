@@ -1,9 +1,7 @@
 # Resumo de uma conversa com Codex sobre formatos
-Terça, 9 de junho de 2026
-20h24 minutos
+#Discovey #Chatbots| Terça, 9 de junho de 2026 | 20h24min
 
 ---
-
 Vamos criar um novo formato inspirado em [Web Stories](https://amp.dev/about/stories), mas sem AMP.
 
 A referência do repositório Web Stories WP serve para entender arquitetura, não para copiar o formato.
@@ -20,24 +18,23 @@ A ideia central é separar:
 Onde a pessoa cria a experiência.
 
 ### Modelo rico
-
 O “arquivo fonte” salvo pelo editor. Não é HTML final. Descreve cards/cenas, elementos, mídia, posições, estilos, animações, interações, navegação e estado.
 
-Renderer:
+### Renderer
 Transforma o modelo rico em tela visual. Monta cada card/cena com textos, imagens, vídeos, botões, camadas, estilos, animações e assets.
 
-Player/Runtime:
+### Player/Runtime
 Executa a experiência. Controla avanço, volta, pausa, autoplay, gestos, transições, escolhas, estado, branching, histórico, replay e analytics.
 
-Export/Embed:
+### Export/Embed
 Saídas adicionais. Pode gerar pacote embutível, imagem para preview, thumbnail, ou vídeo para TikTok/Reels/Shorts.
 
-Decisão técnica recomendada:
+## Decisão técnica recomendada
 Web-first e híbrido.
 
 Usar DOM/HTML/CSS/React como base principal do runtime, com Canvas/WebGL/Three.js como camadas nativas opcionais quando necessário.
 
-Motivo:
+### Motivo
 - DOM/React é melhor para texto real, botões, acessibilidade, links, formulários, responsividade, embed e integração com CMS.
 - Canvas é ótimo para efeitos 2D, partículas, mini-games e renderização controlada.
 - WebGL/Three.js é ótimo para efeitos premium, vidro/refração, profundidade, 3D, transições sofisticadas e linguagem visual tipo Liquid Glass.
@@ -49,13 +46,13 @@ Não começar como motor 100% Canvas/WebGL por padrão, porque isso dificulta te
 
 Mas Canvas/WebGL devem existir desde o começo como parte nativa do formato, para permitir ideias fora da caixa.
 
-Exemplo de modos de card:
+### Exemplo de modos de card
 - card comum: DOM/React
 - card cinematográfico: WebGL
 - card mini-game: Canvas/WebGL
 - card exportável: render pass para vídeo
 
-## Pipeline recomendado:
+## Pipeline recomendado
 
 ### Modelo rico
 
