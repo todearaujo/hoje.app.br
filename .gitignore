@@ -9,3 +9,9 @@ inbox/
 
 # Imagens
 img/
+
+
+
+
+# Ignore Smart Environment folder
+.smart-env
