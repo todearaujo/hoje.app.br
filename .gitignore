@@ -2,7 +2,7 @@
 .DS_Store
 
 # Obsidian configs
-.obsidian/
+.obsidian
 
 # Rascunhos
 inbox/
