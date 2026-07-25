@@ -1,18 +1,11 @@
 # macOS
 .DS_Store
 
-# Configurações do Obsidian (pasta inteira)
+# Obsidian configs
 .obsidian/
 
-# Pasta com rascunhos
+# Rascunhos
 inbox/
 
-# Imagens
-img/
-
-
-
-
-# Ignore Smart Environment folder
+# Ignore Smart Environment
 .smart-env
-/ignore/
