@@ -1,3 +1,0 @@
-# Curation vs. Original
-
-(TK)
